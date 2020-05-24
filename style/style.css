@@ -1,0 +1,102 @@
+.user__albums{
+    margin-left: 20px;
+}
+
+.album__photos{
+    margin-left: 40px;
+}
+
+.bigPhoto{
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.658);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.bigPhoto__close{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.photo{
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.photo__like{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 20px;
+    color: rgb(240, 213, 162);
+}
+
+.photo__like:hover{
+    color: rgb(255, 167, 2);
+    cursor: pointer;
+}
+
+.active{
+    color: rgb(255, 167, 2);
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tab{
+    display: block;
+    width: 45%;
+}
+
+.user{
+    display: block;
+    cursor: pointer;
+}
+
+.tab_title{
+    margin: auto;
+    width: 100px;
+    color: rgb(59, 61, 182);
+    text-decoration: underline;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.tab_title:active{
+    color: rgb(178, 81, 223);
+}
+
+.catalog{
+    display: block;
+    padding-top: 30px;
+    flex-direction: column;
+}
+
+.favourites{
+    padding-top: 30px;
+}
+
+.bigPhoto__close{
+    cursor: pointer;
+}
+
+.close{
+    display: none;
+}
+
+.open{
+    display: block;
+}
